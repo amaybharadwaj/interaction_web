@@ -1,0 +1,169 @@
+/* Fonts */
+/* ------------------------------------------------- */
+
+@font-face  {
+font-family: 'Font Name';
+src: url('assets/font-name.eot');
+src: url('assets/font-name.eot?#iefix') format('embedded-opentype'),
+     url('assets/font-name.woff2') format('woff2'),
+     url('assets/font-name.woff') format('woff'),
+     url('assets/font-name.ttf') format('truetype');
+font-style: normal;
+font-weight: normal;
+}
+
+
+/* CSS Resets */
+/* ------------------------------------------------- */
+
+html  {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+body  {
+  margin: 0;
+  padding: 10px;
+  height: 100vh;   
+  width: 100vw; 
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: rgb(0, 0, 0);
+}
+
+*   { 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+/* Overall Text Styles */
+/* ------------------------------------------------- */
+
+h1  {
+  color: white;
+}
+
+h2  {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+p   {
+  color: white;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(255, 255, 255);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(4, 64, 121);
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+
+/* Sample General Container and Element Styles */
+/* Edit according to your preferences  */
+/* ------------------------------------------------- */
+
+section {
+  width: 100%;
+  background-color: rgb(26, 26, 26);
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.assignment-block {
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+  min-width: 320px;
+  max-width: 800px;
+  height: auto;
+  display: block;
+}
+.media {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust gap between images as needed */
+}
+
+.media img {
+  max-width: 100%;
+  height: auto;
+  flex: 1;
+}
+
+
+iframe {
+  border: none;
+}
+
+.pdf {
+  width: 100%;
+  min-width: 400px;
+  max-width: 1400px;
+  height: auto;
+  aspect-ratio: 4 / 3;
+}
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #ffffff;
+}
+.button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: white;
+  background-color: #007BFF;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #ffffff;
+}
+
+
+
+/*  */
+/* ------------------------------------------------- */
+
